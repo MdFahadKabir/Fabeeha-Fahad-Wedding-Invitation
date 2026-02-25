@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --color-gold-500: #d4af37;
+  --color-gold-600: #c5a028;
+  --color-cream-50: #fdfbf7;
+  --color-cream-100: #f7f3e8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-cream-50);
+  color: #2c2c2c;
+  font-family: var(--font-cormorant);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+}
+
+img,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+a,
+button {
+  transition: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.gsap-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+}

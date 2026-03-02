@@ -9,10 +9,10 @@ const events = [
     title: "Mehedi",
     date: "March 24",
     time: "8:00 PM",
-    venueName: "Shopping Bag Super Shop",
+    venueName: "Wind of change restaurant and rooftop music lounge.",
     image:
       "https://ik.imagekit.io/li2ecyhwr/Whisk_3b14742ed7a787e94b1494991c173b84eg.png",
-    link: "https://www.google.com/maps/place/Shopping+Bag+Super+Shop,+281+Chatteshwari+Rd,+Chittagong+4000/@22.3490265,91.8251388,21z/data=!4m6!3m5!1s0x30acd898ecf862e7:0x421935b4cf5c6b34!8m2!3d22.3490641!4d91.8253104!16s%2Fg%2F11yrzt3z4y?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D",
+    link: "https://www.google.com/maps/place/Wind+of+change+restaurant+and+rooftop+music+lounge./@22.3648904,91.8222643,17z/data=!3m1!4b1!4m6!3m5!1s0x30acd8842ec8cc8f:0xf1c90263600ca572!8m2!3d22.3648855!4d91.8248392!16s%2Fg%2F11hblq6klx?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
   },
   {
     title: "Wedding",
